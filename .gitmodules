@@ -1,0 +1,12 @@
+[submodule "src/openssl"]
+	path = src/openssl
+	url = https://github.com/openssl/openssl.git
+[submodule "src/librdkafka"]
+	path = src/librdkafka
+	url = https://github.com/edenhill/librdkafka.git
+[submodule "src/cppkafka"]
+	path = src/cppkafka
+	url = https://github.com/mfontanini/cppkafka.git
+[submodule "src/boost"]
+	path = src/boost
+	url = https://github.com/boostorg/boost.git
