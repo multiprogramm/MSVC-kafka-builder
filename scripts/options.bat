@@ -37,15 +37,17 @@ SET OPENSSL_TAG=OpenSSL_1_1_1-stable
 SET LIBRDKAFKA_VERS=0.11.6.5
 SET LIBRDKAFKA_TAG=v0.11.6-RC5
 
+SET BOOST_TAG=123
+
 SET CPPKAFKA_VERS=0.2.1
 SET CPPKAFKA_TAG=ab002fe119fb8d124d23587be8992b010ab37f4d
 
 
 
-REM ========== Another params ==========
 
-REM Path to Fart.exe
-SET FART_PATH="%SRC_DIR%\FartIT\Release\Fart.exe"
 
-REM Path to rcedit.exe
-SET RCEDIT_PATH="%SRC_DIR%\rcedit\Default\rcedit.exe"
+
+
+
+REM ============ Checks =================
+REM TODO

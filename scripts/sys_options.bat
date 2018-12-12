@@ -20,3 +20,9 @@ SET SRC_DIR=%REP_DIR%\src
 
 REM BOOST folder
 SET BOOST_DIR=%SRC_DIR%\boost
+
+REM Path to Fart.exe
+SET FART_PATH="%SRC_DIR%\FartIT\Release\Fart.exe"
+
+REM Path to rcedit.exe
+SET RCEDIT_PATH="%SRC_DIR%\rcedit\Default\rcedit.exe"
