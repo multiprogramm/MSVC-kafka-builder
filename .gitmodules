@@ -10,3 +10,9 @@
 [submodule "src/boost"]
 	path = src/boost
 	url = https://github.com/boostorg/boost.git
+[submodule "src/FartIT"]
+	path = src/FartIT
+	url = https://github.com/MicroWorldwide/FartIT.git
+[submodule "src/rcedit"]
+	path = src/rcedit
+	url = https://github.com/electron/rcedit.git
