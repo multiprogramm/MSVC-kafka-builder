@@ -1,3 +1,8 @@
+CD /D "%REP_DIR%"
+git submodule update --init "src/openssl"
+CD src/openssl
+git checkout "%OPENSSL_TAG%"
+
 CALL "%SCRIPTS_DIR%\set_msvs_32.bat"
 
 XCOPY "%SRC_DIR%\openssl" "%TMP_DIR%\openssl\debug32\" /S /E /R /Y

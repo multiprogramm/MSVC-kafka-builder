@@ -1,3 +1,8 @@
+CD /D "%REP_DIR%"
+git submodule update --init "src/cppkafka"
+CD src/cppkafka
+git checkout "%CPPKAFKA_TAG%"
+
 CD /D "%SRC_DIR%"
 
 cmake ^

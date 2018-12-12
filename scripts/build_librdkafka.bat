@@ -1,3 +1,8 @@
+CD /D "%REP_DIR%"
+git submodule update --init "src/librdkafka"
+CD src/librdkafka
+git checkout "%LIBRDKAFKA_TAG%"
+
 CD /D "%SRC_DIR%\librdkafka\win32"
 
 CALL "%SCRIPTS_DIR%\set_msvs_32.bat"
